@@ -1,0 +1,99 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0; 
+  padding: 0;
+  width: 100vw;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.contact-form {
+  flex-basis: 20%;
+}
+
+.contact-form h2 {
+  margin-top: 0;
+}
+
+.contact-form form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact-form textarea {
+  height: 50px;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.copy {
+  flex-basis: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@keyframes banner {
+  0%, 25% {
+      background-image: url(../img/bannerFoto1.jpg) ;
+      opacity: 1;
+  }
+  26%, 29% {
+      opacity: 0.1;
+  }
+  30%, 55% {
+      background-image: url(../img/bannerFoto2.jpg) ;
+      opacity: 1;
+  }
+  56%, 59% {
+      opacity: 0.1;
+  }
+  60%, 85% {
+      opacity: 1;
+      background-image: url(../img/bannerFoto3jpg.jpg) ;
+
+  }
+  86%, 89% {
+    opacity: 0.1;
+}
+  90%, 100% {
+    opacity: 1;
+    background-image: url(../img/bannerFoto4.jpeg) ;
+
+}
+}
