@@ -6,11 +6,83 @@ body {
   width: 100vw;
 }
 
+
+
+
+
+@keyframes banner {
+  0%, 25% {
+      background-image: url(../img/bannerFoto1.jpg) ;
+      opacity: 1;
+  }
+  26%, 29% {
+      opacity: 0.1;
+  }
+  30%, 55% {
+      background-image: url(../img/bannerFoto2.jpg) ;
+      opacity: 1;
+  }
+  56%, 59% {
+      opacity: 0.1;
+  }
+  60%, 85% {
+      opacity: 1;
+      background-image: url(../img/bannerFoto3jpg.jpg) ;
+
+  }
+  86%, 89% {
+    opacity: 0.1;
+}
+  90%, 100% {
+    opacity: 1;
+    background-image: url(../img/bannerFoto4.jpeg) ;
+
+}
+}
+
+
+/* estilos cards-galeria */
+
+.galeria{
+  background-color: #303030;
+  height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction:column;
+  align-items: center;
+  color: #F2F2F2;
+}
+.proyectos{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.card{
+  text-align: center;
+  width: 30%;
+  border: solid #F2F2F2 1px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+}
+.card img{
+  width: 100%;
+}
+
+/* estilos video youtube */
+
+.videoSobre{
+background-color: grey;
+}
+
 .container {
 	width: 94%;
 	margin: 0 auto;
 }
 
+/* estilos footer */
 
 footer {
   background-color: #333;
@@ -68,32 +140,62 @@ footer {
   text-align: center;
 }
 
-@keyframes banner {
-  0%, 25% {
-      background-image: url(../img/bannerFoto1.jpg) ;
-      opacity: 1;
-  }
-  26%, 29% {
-      opacity: 0.1;
-  }
-  30%, 55% {
-      background-image: url(../img/bannerFoto2.jpg) ;
-      opacity: 1;
-  }
-  56%, 59% {
-      opacity: 0.1;
-  }
-  60%, 85% {
-      opacity: 1;
-      background-image: url(../img/bannerFoto3jpg.jpg) ;
+/* footer estilos */
+.footer{
+  padding: 50px;
+  margin: 40%;
+  display: flex;
+  justify-content: center;
+}
 
-  }
-  86%, 89% {
-    opacity: 0.1;
+.links{
+  display: flex;
+  justify-content: space-between;
 }
-  90%, 100% {
-    opacity: 1;
-    background-image: url(../img/bannerFoto4.jpeg) ;
 
+.link{
+  width: 25%;
 }
+
+.link h3{
+  font-size: 20px;
+  color: aliceblue;
+  margin-bottom: 20px;
 }
+
+.link p{
+  color: #8b7e7b;
+  font-size: 14px;
+  margin: 0 50px 15px 0
+}
+
+.link ul li a{
+  display: inline-block;
+  font-size: 14px;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+.socials-2 img{
+  width: 20px;
+  height: 20px;
+}
+
+.link form{
+  display: flex;
+  flex-direction: column;
+}
+
+.inp{
+  margin-bottom: 15px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn-4{
+  padding: 8px 15px;
+  border-radius: 10px;
+  background-color: orangered;
+  color: aliceblue;
+}
+
