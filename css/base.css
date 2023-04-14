@@ -1,0 +1,35 @@
+
+.contenedor_formulario {
+	padding: 5em;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-color: rgb(75, 75, 97);
+
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .contenedor_formulario {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contenedor_formulario {
+    padding-left: calc((100vw - 900px) / 2);
+    padding-right: calc((100vw - 900px) / 2);
+  }
+}

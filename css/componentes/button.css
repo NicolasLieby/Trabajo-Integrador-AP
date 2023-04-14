@@ -1,0 +1,39 @@
+.button {
+  display: block;
+  background-color: #4f57c5;
+  border-radius: 7px;
+  width: 50%;
+  margin-top: 1rem;
+  padding: 1.125rem;
+  box-sizing: border-box;
+  color: #fff;;
+  font-size: 22px;
+  align-self: center;
+  text-align: center;
+}
+
+.button:hover {
+  border-radius: 8px;
+  background-color: rgb(133, 118, 112);
+  display: block;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.simple-button {
+  border: none;
+  background-color: unset;
+}
+
+.simple-button--add {
+  color: #0071ea;
+}
+
+.simple-button--delete {
+  color: #df2525;
+}
+
+.simple-button--edit {
+  color: #047900;
+}
